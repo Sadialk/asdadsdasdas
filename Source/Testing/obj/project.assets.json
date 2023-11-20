@@ -4018,11 +4018,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\klaid\\Desktop\\UNIGITSTUFF\\AiRent\\Testing\\Testing.csproj",
+      "projectUniqueName": "C:\\Users\\klaid\\Desktop\\stpp git\\asdadsdasdas\\Source\\Testing\\Testing.csproj",
       "projectName": "Testing",
-      "projectPath": "C:\\Users\\klaid\\Desktop\\UNIGITSTUFF\\AiRent\\Testing\\Testing.csproj",
+      "projectPath": "C:\\Users\\klaid\\Desktop\\stpp git\\asdadsdasdas\\Source\\Testing\\Testing.csproj",
       "packagesPath": "C:\\Users\\klaid\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\klaid\\Desktop\\UNIGITSTUFF\\AiRent\\Testing\\obj\\",
+      "outputPath": "C:\\Users\\klaid\\Desktop\\stpp git\\asdadsdasdas\\Source\\Testing\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\klaid\\AppData\\Roaming\\NuGet\\NuGet.Config",
