@@ -23,7 +23,8 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddRazorPages();
-builder.Services.AddDbContext<AppdbContext>();
+builder.Services.AddDbContext<AppdbContext>(options =>
+    options.UseNpgsql(builder.Configuration.GetConnectionString("DigitalOceanDBConnection")));
 builder.Services.AddValidatorsFromAssemblyContaining<Program>();
 builder.Services.AddTransient<JwtTokenService>();
 builder.Services.AddScoped<AuthDbSeeder>();
