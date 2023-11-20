@@ -35,7 +35,6 @@ namespace Testing.Auth
                 Email = "admin@admin.com"
             };
 
-
             var existingAdminUser = await _userManager.FindByNameAsync(newAdminUser.UserName);
             if (existingAdminUser == null)
             {
