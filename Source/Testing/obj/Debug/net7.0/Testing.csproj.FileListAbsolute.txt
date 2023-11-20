@@ -1,0 +1,337 @@
+C:\Users\klaid\Desktop\STPP\Testing\obj\Debug\net7.0\Testing.csproj.AssemblyReference.cache
+C:\Users\klaid\Desktop\STPP\Testing\obj\Debug\net7.0\Testing.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\klaid\Desktop\STPP\Testing\obj\Debug\net7.0\Testing.AssemblyInfoInputs.cache
+C:\Users\klaid\Desktop\STPP\Testing\obj\Debug\net7.0\Testing.AssemblyInfo.cs
+C:\Users\klaid\Desktop\STPP\Testing\obj\Debug\net7.0\Testing.csproj.CoreCompileInputs.cache
+C:\Users\klaid\Desktop\STPP\Testing\obj\Debug\net7.0\Testing.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\klaid\Desktop\STPP\Testing\obj\Debug\net7.0\Testing.RazorAssemblyInfo.cache
+C:\Users\klaid\Desktop\STPP\Testing\obj\Debug\net7.0\Testing.RazorAssemblyInfo.cs
+C:\Users\klaid\Desktop\STPP\Testing\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\klaid\Desktop\STPP\Testing\bin\Debug\net7.0\appsettings.json
+C:\Users\klaid\Desktop\STPP\Testing\bin\Debug\net7.0\Testing.staticwebassets.runtime.json
+C:\Users\klaid\Desktop\STPP\Testing\bin\Debug\net7.0\Testing.exe
+C:\Users\klaid\Desktop\STPP\Testing\bin\Debug\net7.0\Testing.deps.json
+C:\Users\klaid\Desktop\STPP\Testing\bin\Debug\net7.0\Testing.runtimeconfig.json
+C:\Users\klaid\Desktop\STPP\Testing\bin\Debug\net7.0\Testing.dll
+C:\Users\klaid\Desktop\STPP\Testing\bin\Debug\net7.0\Testing.pdb
+C:\Users\klaid\Desktop\STPP\Testing\bin\Debug\net7.0\Azure.Core.dll
+C:\Users\klaid\Desktop\STPP\Testing\bin\Debug\net7.0\Azure.Identity.dll
+C:\Users\klaid\Desktop\STPP\Testing\bin\Debug\net7.0\FluentValidation.dll
+C:\Users\klaid\Desktop\STPP\Testing\bin\Debug\net7.0\FluentValidation.DependencyInjectionExtensions.dll
+C:\Users\klaid\Desktop\STPP\Testing\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\klaid\Desktop\STPP\Testing\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
+C:\Users\klaid\Desktop\STPP\Testing\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\klaid\Desktop\STPP\Testing\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\klaid\Desktop\STPP\Testing\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\klaid\Desktop\STPP\Testing\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\klaid\Desktop\STPP\Testing\bin\Debug\net7.0\Microsoft.Identity.Client.dll
+C:\Users\klaid\Desktop\STPP\Testing\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\klaid\Desktop\STPP\Testing\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\klaid\Desktop\STPP\Testing\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\klaid\Desktop\STPP\Testing\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\klaid\Desktop\STPP\Testing\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\klaid\Desktop\STPP\Testing\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\klaid\Desktop\STPP\Testing\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\klaid\Desktop\STPP\Testing\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
+C:\Users\klaid\Desktop\STPP\Testing\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\klaid\Desktop\STPP\Testing\bin\Debug\net7.0\O9d.AspNet.FluentValidation.dll
+C:\Users\klaid\Desktop\STPP\Testing\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+C:\Users\klaid\Desktop\STPP\Testing\bin\Debug\net7.0\System.Drawing.Common.dll
+C:\Users\klaid\Desktop\STPP\Testing\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\klaid\Desktop\STPP\Testing\bin\Debug\net7.0\System.Memory.Data.dll
+C:\Users\klaid\Desktop\STPP\Testing\bin\Debug\net7.0\System.Runtime.Caching.dll
+C:\Users\klaid\Desktop\STPP\Testing\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\klaid\Desktop\STPP\Testing\bin\Debug\net7.0\System.Security.Permissions.dll
+C:\Users\klaid\Desktop\STPP\Testing\bin\Debug\net7.0\System.Windows.Extensions.dll
+C:\Users\klaid\Desktop\STPP\Testing\bin\Debug\net7.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\klaid\Desktop\STPP\Testing\bin\Debug\net7.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\klaid\Desktop\STPP\Testing\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\klaid\Desktop\STPP\Testing\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\klaid\Desktop\STPP\Testing\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\klaid\Desktop\STPP\Testing\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\klaid\Desktop\STPP\Testing\bin\Debug\net7.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\klaid\Desktop\STPP\Testing\bin\Debug\net7.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\Users\klaid\Desktop\STPP\Testing\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\Users\klaid\Desktop\STPP\Testing\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\Users\klaid\Desktop\STPP\Testing\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\klaid\Desktop\STPP\Testing\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Users\klaid\Desktop\STPP\Testing\obj\Debug\net7.0\staticwebassets\msbuild.Testing.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\klaid\Desktop\STPP\Testing\obj\Debug\net7.0\staticwebassets\msbuild.build.Testing.props
+C:\Users\klaid\Desktop\STPP\Testing\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.Testing.props
+C:\Users\klaid\Desktop\STPP\Testing\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.Testing.props
+C:\Users\klaid\Desktop\STPP\Testing\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\klaid\Desktop\STPP\Testing\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\klaid\Desktop\STPP\Testing\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\klaid\Desktop\STPP\Testing\obj\Debug\net7.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\klaid\Desktop\STPP\Testing\obj\Debug\net7.0\scopedcss\bundle\Testing.styles.css
+C:\Users\klaid\Desktop\STPP\Testing\obj\Debug\net7.0\scopedcss\projectbundle\Testing.bundle.scp.css
+C:\Users\klaid\Desktop\STPP\Testing\obj\Debug\net7.0\Testing.csproj.CopyComplete
+C:\Users\klaid\Desktop\STPP\Testing\obj\Debug\net7.0\Testing.dll
+C:\Users\klaid\Desktop\STPP\Testing\obj\Debug\net7.0\refint\Testing.dll
+C:\Users\klaid\Desktop\STPP\Testing\obj\Debug\net7.0\Testing.pdb
+C:\Users\klaid\Desktop\STPP\Testing\obj\Debug\net7.0\Testing.genruntimeconfig.cache
+C:\Users\klaid\Desktop\STPP\Testing\obj\Debug\net7.0\ref\Testing.dll
+C:\Users\klaid\Desktop\STPP\Testing\bin\Debug\net7.0\Humanizer.dll
+C:\Users\klaid\Desktop\STPP\Testing\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\klaid\Desktop\STPP\Testing\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\klaid\Desktop\STPP\Testing\bin\Debug\net7.0\Mono.TextTemplating.dll
+C:\Users\klaid\Desktop\STPP\Testing\bin\Debug\net7.0\System.CodeDom.dll
+D:\Stpp\Testing\bin\Debug\net7.0\appsettings.Development.json
+D:\Stpp\Testing\bin\Debug\net7.0\appsettings.json
+D:\Stpp\Testing\bin\Debug\net7.0\Testing.staticwebassets.runtime.json
+D:\Stpp\Testing\bin\Debug\net7.0\Testing.exe
+D:\Stpp\Testing\bin\Debug\net7.0\Testing.deps.json
+D:\Stpp\Testing\bin\Debug\net7.0\Testing.runtimeconfig.json
+D:\Stpp\Testing\bin\Debug\net7.0\Testing.dll
+D:\Stpp\Testing\bin\Debug\net7.0\Testing.pdb
+D:\Stpp\Testing\bin\Debug\net7.0\Azure.Core.dll
+D:\Stpp\Testing\bin\Debug\net7.0\Azure.Identity.dll
+D:\Stpp\Testing\bin\Debug\net7.0\FluentValidation.dll
+D:\Stpp\Testing\bin\Debug\net7.0\FluentValidation.DependencyInjectionExtensions.dll
+D:\Stpp\Testing\bin\Debug\net7.0\Humanizer.dll
+D:\Stpp\Testing\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Stpp\Testing\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
+D:\Stpp\Testing\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+D:\Stpp\Testing\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Stpp\Testing\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\Stpp\Testing\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Stpp\Testing\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Stpp\Testing\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+D:\Stpp\Testing\bin\Debug\net7.0\Microsoft.Identity.Client.dll
+D:\Stpp\Testing\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\Stpp\Testing\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+D:\Stpp\Testing\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Stpp\Testing\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+D:\Stpp\Testing\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+D:\Stpp\Testing\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Stpp\Testing\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+D:\Stpp\Testing\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
+D:\Stpp\Testing\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+D:\Stpp\Testing\bin\Debug\net7.0\Mono.TextTemplating.dll
+D:\Stpp\Testing\bin\Debug\net7.0\O9d.AspNet.FluentValidation.dll
+D:\Stpp\Testing\bin\Debug\net7.0\System.CodeDom.dll
+D:\Stpp\Testing\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+D:\Stpp\Testing\bin\Debug\net7.0\System.Drawing.Common.dll
+D:\Stpp\Testing\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Stpp\Testing\bin\Debug\net7.0\System.Memory.Data.dll
+D:\Stpp\Testing\bin\Debug\net7.0\System.Runtime.Caching.dll
+D:\Stpp\Testing\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+D:\Stpp\Testing\bin\Debug\net7.0\System.Security.Permissions.dll
+D:\Stpp\Testing\bin\Debug\net7.0\System.Windows.Extensions.dll
+D:\Stpp\Testing\bin\Debug\net7.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\Stpp\Testing\bin\Debug\net7.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\Stpp\Testing\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Stpp\Testing\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Stpp\Testing\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Stpp\Testing\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Stpp\Testing\bin\Debug\net7.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\Stpp\Testing\bin\Debug\net7.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+D:\Stpp\Testing\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+D:\Stpp\Testing\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+D:\Stpp\Testing\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\Stpp\Testing\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+D:\Stpp\Testing\obj\Debug\net7.0\Testing.csproj.AssemblyReference.cache
+D:\Stpp\Testing\obj\Debug\net7.0\Testing.GeneratedMSBuildEditorConfig.editorconfig
+D:\Stpp\Testing\obj\Debug\net7.0\Testing.AssemblyInfoInputs.cache
+D:\Stpp\Testing\obj\Debug\net7.0\Testing.AssemblyInfo.cs
+D:\Stpp\Testing\obj\Debug\net7.0\Testing.csproj.CoreCompileInputs.cache
+D:\Stpp\Testing\obj\Debug\net7.0\Testing.MvcApplicationPartsAssemblyInfo.cache
+D:\Stpp\Testing\obj\Debug\net7.0\Testing.RazorAssemblyInfo.cache
+D:\Stpp\Testing\obj\Debug\net7.0\Testing.RazorAssemblyInfo.cs
+D:\Stpp\Testing\obj\Debug\net7.0\staticwebassets\msbuild.Testing.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Stpp\Testing\obj\Debug\net7.0\staticwebassets\msbuild.build.Testing.props
+D:\Stpp\Testing\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.Testing.props
+D:\Stpp\Testing\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.Testing.props
+D:\Stpp\Testing\obj\Debug\net7.0\staticwebassets.pack.json
+D:\Stpp\Testing\obj\Debug\net7.0\staticwebassets.build.json
+D:\Stpp\Testing\obj\Debug\net7.0\staticwebassets.development.json
+D:\Stpp\Testing\obj\Debug\net7.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+D:\Stpp\Testing\obj\Debug\net7.0\scopedcss\bundle\Testing.styles.css
+D:\Stpp\Testing\obj\Debug\net7.0\scopedcss\projectbundle\Testing.bundle.scp.css
+D:\Stpp\Testing\obj\Debug\net7.0\Testing.csproj.CopyComplete
+D:\Stpp\Testing\obj\Debug\net7.0\Testing.dll
+D:\Stpp\Testing\obj\Debug\net7.0\refint\Testing.dll
+D:\Stpp\Testing\obj\Debug\net7.0\Testing.pdb
+D:\Stpp\Testing\obj\Debug\net7.0\Testing.genruntimeconfig.cache
+D:\Stpp\Testing\obj\Debug\net7.0\ref\Testing.dll
+D:\Stpp\Testing\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\Stpp\Testing\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\Stpp\Testing\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\Stpp\Testing\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\Stpp\Testing\bin\Debug\net7.0\Microsoft.Extensions.Identity.Core.dll
+D:\Stpp\Testing\bin\Debug\net7.0\Microsoft.Extensions.Identity.Stores.dll
+D:\Stpp\Testing\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
+C:\Users\klaid\Desktop\UNIGITSTUFF\AiRent\Testing\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\klaid\Desktop\UNIGITSTUFF\AiRent\Testing\bin\Debug\net7.0\appsettings.json
+C:\Users\klaid\Desktop\UNIGITSTUFF\AiRent\Testing\bin\Debug\net7.0\Testing.staticwebassets.runtime.json
+C:\Users\klaid\Desktop\UNIGITSTUFF\AiRent\Testing\bin\Debug\net7.0\Testing.exe
+C:\Users\klaid\Desktop\UNIGITSTUFF\AiRent\Testing\bin\Debug\net7.0\Testing.deps.json
+C:\Users\klaid\Desktop\UNIGITSTUFF\AiRent\Testing\bin\Debug\net7.0\Testing.runtimeconfig.json
+C:\Users\klaid\Desktop\UNIGITSTUFF\AiRent\Testing\bin\Debug\net7.0\Testing.dll
+C:\Users\klaid\Desktop\UNIGITSTUFF\AiRent\Testing\bin\Debug\net7.0\Testing.pdb
+C:\Users\klaid\Desktop\UNIGITSTUFF\AiRent\Testing\bin\Debug\net7.0\Azure.Core.dll
+C:\Users\klaid\Desktop\UNIGITSTUFF\AiRent\Testing\bin\Debug\net7.0\Azure.Identity.dll
+C:\Users\klaid\Desktop\UNIGITSTUFF\AiRent\Testing\bin\Debug\net7.0\FluentValidation.dll
+C:\Users\klaid\Desktop\UNIGITSTUFF\AiRent\Testing\bin\Debug\net7.0\FluentValidation.DependencyInjectionExtensions.dll
+C:\Users\klaid\Desktop\UNIGITSTUFF\AiRent\Testing\bin\Debug\net7.0\Humanizer.dll
+C:\Users\klaid\Desktop\UNIGITSTUFF\AiRent\Testing\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\klaid\Desktop\UNIGITSTUFF\AiRent\Testing\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\klaid\Desktop\UNIGITSTUFF\AiRent\Testing\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\klaid\Desktop\UNIGITSTUFF\AiRent\Testing\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\klaid\Desktop\UNIGITSTUFF\AiRent\Testing\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\klaid\Desktop\UNIGITSTUFF\AiRent\Testing\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
+C:\Users\klaid\Desktop\UNIGITSTUFF\AiRent\Testing\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\klaid\Desktop\UNIGITSTUFF\AiRent\Testing\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\klaid\Desktop\UNIGITSTUFF\AiRent\Testing\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\klaid\Desktop\UNIGITSTUFF\AiRent\Testing\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\klaid\Desktop\UNIGITSTUFF\AiRent\Testing\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\klaid\Desktop\UNIGITSTUFF\AiRent\Testing\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\klaid\Desktop\UNIGITSTUFF\AiRent\Testing\bin\Debug\net7.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\klaid\Desktop\UNIGITSTUFF\AiRent\Testing\bin\Debug\net7.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\klaid\Desktop\UNIGITSTUFF\AiRent\Testing\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
+C:\Users\klaid\Desktop\UNIGITSTUFF\AiRent\Testing\bin\Debug\net7.0\Microsoft.Identity.Client.dll
+C:\Users\klaid\Desktop\UNIGITSTUFF\AiRent\Testing\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\klaid\Desktop\UNIGITSTUFF\AiRent\Testing\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\klaid\Desktop\UNIGITSTUFF\AiRent\Testing\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\klaid\Desktop\UNIGITSTUFF\AiRent\Testing\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\klaid\Desktop\UNIGITSTUFF\AiRent\Testing\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\klaid\Desktop\UNIGITSTUFF\AiRent\Testing\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\klaid\Desktop\UNIGITSTUFF\AiRent\Testing\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\klaid\Desktop\UNIGITSTUFF\AiRent\Testing\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
+C:\Users\klaid\Desktop\UNIGITSTUFF\AiRent\Testing\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\klaid\Desktop\UNIGITSTUFF\AiRent\Testing\bin\Debug\net7.0\Mono.TextTemplating.dll
+C:\Users\klaid\Desktop\UNIGITSTUFF\AiRent\Testing\bin\Debug\net7.0\O9d.AspNet.FluentValidation.dll
+C:\Users\klaid\Desktop\UNIGITSTUFF\AiRent\Testing\bin\Debug\net7.0\System.CodeDom.dll
+C:\Users\klaid\Desktop\UNIGITSTUFF\AiRent\Testing\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+C:\Users\klaid\Desktop\UNIGITSTUFF\AiRent\Testing\bin\Debug\net7.0\System.Drawing.Common.dll
+C:\Users\klaid\Desktop\UNIGITSTUFF\AiRent\Testing\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\klaid\Desktop\UNIGITSTUFF\AiRent\Testing\bin\Debug\net7.0\System.Memory.Data.dll
+C:\Users\klaid\Desktop\UNIGITSTUFF\AiRent\Testing\bin\Debug\net7.0\System.Runtime.Caching.dll
+C:\Users\klaid\Desktop\UNIGITSTUFF\AiRent\Testing\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\klaid\Desktop\UNIGITSTUFF\AiRent\Testing\bin\Debug\net7.0\System.Security.Permissions.dll
+C:\Users\klaid\Desktop\UNIGITSTUFF\AiRent\Testing\bin\Debug\net7.0\System.Windows.Extensions.dll
+C:\Users\klaid\Desktop\UNIGITSTUFF\AiRent\Testing\bin\Debug\net7.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\klaid\Desktop\UNIGITSTUFF\AiRent\Testing\bin\Debug\net7.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\klaid\Desktop\UNIGITSTUFF\AiRent\Testing\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\klaid\Desktop\UNIGITSTUFF\AiRent\Testing\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\klaid\Desktop\UNIGITSTUFF\AiRent\Testing\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\klaid\Desktop\UNIGITSTUFF\AiRent\Testing\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\klaid\Desktop\UNIGITSTUFF\AiRent\Testing\bin\Debug\net7.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\klaid\Desktop\UNIGITSTUFF\AiRent\Testing\bin\Debug\net7.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\Users\klaid\Desktop\UNIGITSTUFF\AiRent\Testing\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\Users\klaid\Desktop\UNIGITSTUFF\AiRent\Testing\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\Users\klaid\Desktop\UNIGITSTUFF\AiRent\Testing\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\klaid\Desktop\UNIGITSTUFF\AiRent\Testing\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Users\klaid\Desktop\UNIGITSTUFF\AiRent\Testing\obj\Debug\net7.0\Testing.csproj.AssemblyReference.cache
+C:\Users\klaid\Desktop\UNIGITSTUFF\AiRent\Testing\obj\Debug\net7.0\Testing.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\klaid\Desktop\UNIGITSTUFF\AiRent\Testing\obj\Debug\net7.0\Testing.AssemblyInfoInputs.cache
+C:\Users\klaid\Desktop\UNIGITSTUFF\AiRent\Testing\obj\Debug\net7.0\Testing.AssemblyInfo.cs
+C:\Users\klaid\Desktop\UNIGITSTUFF\AiRent\Testing\obj\Debug\net7.0\Testing.csproj.CoreCompileInputs.cache
+C:\Users\klaid\Desktop\UNIGITSTUFF\AiRent\Testing\obj\Debug\net7.0\Testing.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\klaid\Desktop\UNIGITSTUFF\AiRent\Testing\obj\Debug\net7.0\Testing.RazorAssemblyInfo.cache
+C:\Users\klaid\Desktop\UNIGITSTUFF\AiRent\Testing\obj\Debug\net7.0\Testing.RazorAssemblyInfo.cs
+C:\Users\klaid\Desktop\UNIGITSTUFF\AiRent\Testing\obj\Debug\net7.0\staticwebassets\msbuild.Testing.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\klaid\Desktop\UNIGITSTUFF\AiRent\Testing\obj\Debug\net7.0\staticwebassets\msbuild.build.Testing.props
+C:\Users\klaid\Desktop\UNIGITSTUFF\AiRent\Testing\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.Testing.props
+C:\Users\klaid\Desktop\UNIGITSTUFF\AiRent\Testing\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.Testing.props
+C:\Users\klaid\Desktop\UNIGITSTUFF\AiRent\Testing\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\klaid\Desktop\UNIGITSTUFF\AiRent\Testing\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\klaid\Desktop\UNIGITSTUFF\AiRent\Testing\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\klaid\Desktop\UNIGITSTUFF\AiRent\Testing\obj\Debug\net7.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\klaid\Desktop\UNIGITSTUFF\AiRent\Testing\obj\Debug\net7.0\scopedcss\bundle\Testing.styles.css
+C:\Users\klaid\Desktop\UNIGITSTUFF\AiRent\Testing\obj\Debug\net7.0\scopedcss\projectbundle\Testing.bundle.scp.css
+C:\Users\klaid\Desktop\UNIGITSTUFF\AiRent\Testing\obj\Debug\net7.0\Testing.csproj.CopyComplete
+C:\Users\klaid\Desktop\UNIGITSTUFF\AiRent\Testing\obj\Debug\net7.0\Testing.dll
+C:\Users\klaid\Desktop\UNIGITSTUFF\AiRent\Testing\obj\Debug\net7.0\refint\Testing.dll
+C:\Users\klaid\Desktop\UNIGITSTUFF\AiRent\Testing\obj\Debug\net7.0\Testing.pdb
+C:\Users\klaid\Desktop\UNIGITSTUFF\AiRent\Testing\obj\Debug\net7.0\Testing.genruntimeconfig.cache
+C:\Users\klaid\Desktop\UNIGITSTUFF\AiRent\Testing\obj\Debug\net7.0\ref\Testing.dll
+C:\Users\klaid\Desktop\UNIGITSTUFF\AiRent\Testing\bin\Debug\net7.0\Npgsql.dll
+C:\Users\klaid\Desktop\UNIGITSTUFF\AiRent\Testing\bin\Debug\net7.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+C:\Users\klaid\Desktop\stpp git\RestDemo\source\DemoRestSimonas2023\DemoRest20232\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\klaid\Desktop\stpp git\RestDemo\source\DemoRestSimonas2023\DemoRest20232\bin\Debug\net7.0\appsettings.json
+C:\Users\klaid\Desktop\stpp git\RestDemo\source\DemoRestSimonas2023\DemoRest20232\bin\Debug\net7.0\Testing.staticwebassets.runtime.json
+C:\Users\klaid\Desktop\stpp git\RestDemo\source\DemoRestSimonas2023\DemoRest20232\bin\Debug\net7.0\Testing.exe
+C:\Users\klaid\Desktop\stpp git\RestDemo\source\DemoRestSimonas2023\DemoRest20232\bin\Debug\net7.0\Testing.deps.json
+C:\Users\klaid\Desktop\stpp git\RestDemo\source\DemoRestSimonas2023\DemoRest20232\bin\Debug\net7.0\Testing.runtimeconfig.json
+C:\Users\klaid\Desktop\stpp git\RestDemo\source\DemoRestSimonas2023\DemoRest20232\bin\Debug\net7.0\Testing.dll
+C:\Users\klaid\Desktop\stpp git\RestDemo\source\DemoRestSimonas2023\DemoRest20232\bin\Debug\net7.0\Testing.pdb
+C:\Users\klaid\Desktop\stpp git\RestDemo\source\DemoRestSimonas2023\DemoRest20232\bin\Debug\net7.0\Azure.Core.dll
+C:\Users\klaid\Desktop\stpp git\RestDemo\source\DemoRestSimonas2023\DemoRest20232\bin\Debug\net7.0\Azure.Identity.dll
+C:\Users\klaid\Desktop\stpp git\RestDemo\source\DemoRestSimonas2023\DemoRest20232\bin\Debug\net7.0\FluentValidation.dll
+C:\Users\klaid\Desktop\stpp git\RestDemo\source\DemoRestSimonas2023\DemoRest20232\bin\Debug\net7.0\FluentValidation.DependencyInjectionExtensions.dll
+C:\Users\klaid\Desktop\stpp git\RestDemo\source\DemoRestSimonas2023\DemoRest20232\bin\Debug\net7.0\Humanizer.dll
+C:\Users\klaid\Desktop\stpp git\RestDemo\source\DemoRestSimonas2023\DemoRest20232\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\klaid\Desktop\stpp git\RestDemo\source\DemoRestSimonas2023\DemoRest20232\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\klaid\Desktop\stpp git\RestDemo\source\DemoRestSimonas2023\DemoRest20232\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\klaid\Desktop\stpp git\RestDemo\source\DemoRestSimonas2023\DemoRest20232\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\klaid\Desktop\stpp git\RestDemo\source\DemoRestSimonas2023\DemoRest20232\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\klaid\Desktop\stpp git\RestDemo\source\DemoRestSimonas2023\DemoRest20232\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
+C:\Users\klaid\Desktop\stpp git\RestDemo\source\DemoRestSimonas2023\DemoRest20232\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\klaid\Desktop\stpp git\RestDemo\source\DemoRestSimonas2023\DemoRest20232\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\klaid\Desktop\stpp git\RestDemo\source\DemoRestSimonas2023\DemoRest20232\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\klaid\Desktop\stpp git\RestDemo\source\DemoRestSimonas2023\DemoRest20232\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\klaid\Desktop\stpp git\RestDemo\source\DemoRestSimonas2023\DemoRest20232\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\klaid\Desktop\stpp git\RestDemo\source\DemoRestSimonas2023\DemoRest20232\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\klaid\Desktop\stpp git\RestDemo\source\DemoRestSimonas2023\DemoRest20232\bin\Debug\net7.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\klaid\Desktop\stpp git\RestDemo\source\DemoRestSimonas2023\DemoRest20232\bin\Debug\net7.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\klaid\Desktop\stpp git\RestDemo\source\DemoRestSimonas2023\DemoRest20232\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
+C:\Users\klaid\Desktop\stpp git\RestDemo\source\DemoRestSimonas2023\DemoRest20232\bin\Debug\net7.0\Microsoft.Identity.Client.dll
+C:\Users\klaid\Desktop\stpp git\RestDemo\source\DemoRestSimonas2023\DemoRest20232\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\klaid\Desktop\stpp git\RestDemo\source\DemoRestSimonas2023\DemoRest20232\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\klaid\Desktop\stpp git\RestDemo\source\DemoRestSimonas2023\DemoRest20232\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\klaid\Desktop\stpp git\RestDemo\source\DemoRestSimonas2023\DemoRest20232\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\klaid\Desktop\stpp git\RestDemo\source\DemoRestSimonas2023\DemoRest20232\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\klaid\Desktop\stpp git\RestDemo\source\DemoRestSimonas2023\DemoRest20232\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\klaid\Desktop\stpp git\RestDemo\source\DemoRestSimonas2023\DemoRest20232\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\klaid\Desktop\stpp git\RestDemo\source\DemoRestSimonas2023\DemoRest20232\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
+C:\Users\klaid\Desktop\stpp git\RestDemo\source\DemoRestSimonas2023\DemoRest20232\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\klaid\Desktop\stpp git\RestDemo\source\DemoRestSimonas2023\DemoRest20232\bin\Debug\net7.0\Mono.TextTemplating.dll
+C:\Users\klaid\Desktop\stpp git\RestDemo\source\DemoRestSimonas2023\DemoRest20232\bin\Debug\net7.0\Npgsql.dll
+C:\Users\klaid\Desktop\stpp git\RestDemo\source\DemoRestSimonas2023\DemoRest20232\bin\Debug\net7.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+C:\Users\klaid\Desktop\stpp git\RestDemo\source\DemoRestSimonas2023\DemoRest20232\bin\Debug\net7.0\O9d.AspNet.FluentValidation.dll
+C:\Users\klaid\Desktop\stpp git\RestDemo\source\DemoRestSimonas2023\DemoRest20232\bin\Debug\net7.0\System.CodeDom.dll
+C:\Users\klaid\Desktop\stpp git\RestDemo\source\DemoRestSimonas2023\DemoRest20232\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+C:\Users\klaid\Desktop\stpp git\RestDemo\source\DemoRestSimonas2023\DemoRest20232\bin\Debug\net7.0\System.Drawing.Common.dll
+C:\Users\klaid\Desktop\stpp git\RestDemo\source\DemoRestSimonas2023\DemoRest20232\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\klaid\Desktop\stpp git\RestDemo\source\DemoRestSimonas2023\DemoRest20232\bin\Debug\net7.0\System.Memory.Data.dll
+C:\Users\klaid\Desktop\stpp git\RestDemo\source\DemoRestSimonas2023\DemoRest20232\bin\Debug\net7.0\System.Runtime.Caching.dll
+C:\Users\klaid\Desktop\stpp git\RestDemo\source\DemoRestSimonas2023\DemoRest20232\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\klaid\Desktop\stpp git\RestDemo\source\DemoRestSimonas2023\DemoRest20232\bin\Debug\net7.0\System.Security.Permissions.dll
+C:\Users\klaid\Desktop\stpp git\RestDemo\source\DemoRestSimonas2023\DemoRest20232\bin\Debug\net7.0\System.Windows.Extensions.dll
+C:\Users\klaid\Desktop\stpp git\RestDemo\source\DemoRestSimonas2023\DemoRest20232\bin\Debug\net7.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\klaid\Desktop\stpp git\RestDemo\source\DemoRestSimonas2023\DemoRest20232\bin\Debug\net7.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\klaid\Desktop\stpp git\RestDemo\source\DemoRestSimonas2023\DemoRest20232\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\klaid\Desktop\stpp git\RestDemo\source\DemoRestSimonas2023\DemoRest20232\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\klaid\Desktop\stpp git\RestDemo\source\DemoRestSimonas2023\DemoRest20232\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\klaid\Desktop\stpp git\RestDemo\source\DemoRestSimonas2023\DemoRest20232\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\klaid\Desktop\stpp git\RestDemo\source\DemoRestSimonas2023\DemoRest20232\bin\Debug\net7.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\klaid\Desktop\stpp git\RestDemo\source\DemoRestSimonas2023\DemoRest20232\bin\Debug\net7.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\Users\klaid\Desktop\stpp git\RestDemo\source\DemoRestSimonas2023\DemoRest20232\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\Users\klaid\Desktop\stpp git\RestDemo\source\DemoRestSimonas2023\DemoRest20232\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\Users\klaid\Desktop\stpp git\RestDemo\source\DemoRestSimonas2023\DemoRest20232\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\klaid\Desktop\stpp git\RestDemo\source\DemoRestSimonas2023\DemoRest20232\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Users\klaid\Desktop\stpp git\RestDemo\source\DemoRestSimonas2023\DemoRest20232\obj\Debug\net7.0\Testing.csproj.AssemblyReference.cache
+C:\Users\klaid\Desktop\stpp git\RestDemo\source\DemoRestSimonas2023\DemoRest20232\obj\Debug\net7.0\Testing.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\klaid\Desktop\stpp git\RestDemo\source\DemoRestSimonas2023\DemoRest20232\obj\Debug\net7.0\Testing.AssemblyInfoInputs.cache
+C:\Users\klaid\Desktop\stpp git\RestDemo\source\DemoRestSimonas2023\DemoRest20232\obj\Debug\net7.0\Testing.AssemblyInfo.cs
+C:\Users\klaid\Desktop\stpp git\RestDemo\source\DemoRestSimonas2023\DemoRest20232\obj\Debug\net7.0\Testing.csproj.CoreCompileInputs.cache
+C:\Users\klaid\Desktop\stpp git\RestDemo\source\DemoRestSimonas2023\DemoRest20232\obj\Debug\net7.0\Testing.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\klaid\Desktop\stpp git\RestDemo\source\DemoRestSimonas2023\DemoRest20232\obj\Debug\net7.0\Testing.RazorAssemblyInfo.cache
+C:\Users\klaid\Desktop\stpp git\RestDemo\source\DemoRestSimonas2023\DemoRest20232\obj\Debug\net7.0\Testing.RazorAssemblyInfo.cs
+C:\Users\klaid\Desktop\stpp git\RestDemo\source\DemoRestSimonas2023\DemoRest20232\obj\Debug\net7.0\staticwebassets\msbuild.Testing.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\klaid\Desktop\stpp git\RestDemo\source\DemoRestSimonas2023\DemoRest20232\obj\Debug\net7.0\staticwebassets\msbuild.build.Testing.props
+C:\Users\klaid\Desktop\stpp git\RestDemo\source\DemoRestSimonas2023\DemoRest20232\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.Testing.props
+C:\Users\klaid\Desktop\stpp git\RestDemo\source\DemoRestSimonas2023\DemoRest20232\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.Testing.props
+C:\Users\klaid\Desktop\stpp git\RestDemo\source\DemoRestSimonas2023\DemoRest20232\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\klaid\Desktop\stpp git\RestDemo\source\DemoRestSimonas2023\DemoRest20232\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\klaid\Desktop\stpp git\RestDemo\source\DemoRestSimonas2023\DemoRest20232\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\klaid\Desktop\stpp git\RestDemo\source\DemoRestSimonas2023\DemoRest20232\obj\Debug\net7.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\klaid\Desktop\stpp git\RestDemo\source\DemoRestSimonas2023\DemoRest20232\obj\Debug\net7.0\scopedcss\bundle\Testing.styles.css
+C:\Users\klaid\Desktop\stpp git\RestDemo\source\DemoRestSimonas2023\DemoRest20232\obj\Debug\net7.0\scopedcss\projectbundle\Testing.bundle.scp.css
+C:\Users\klaid\Desktop\stpp git\RestDemo\source\DemoRestSimonas2023\DemoRest20232\obj\Debug\net7.0\Testing.csproj.CopyComplete
+C:\Users\klaid\Desktop\stpp git\RestDemo\source\DemoRestSimonas2023\DemoRest20232\obj\Debug\net7.0\Testing.dll
+C:\Users\klaid\Desktop\stpp git\RestDemo\source\DemoRestSimonas2023\DemoRest20232\obj\Debug\net7.0\refint\Testing.dll
+C:\Users\klaid\Desktop\stpp git\RestDemo\source\DemoRestSimonas2023\DemoRest20232\obj\Debug\net7.0\Testing.pdb
+C:\Users\klaid\Desktop\stpp git\RestDemo\source\DemoRestSimonas2023\DemoRest20232\obj\Debug\net7.0\Testing.genruntimeconfig.cache
+C:\Users\klaid\Desktop\stpp git\RestDemo\source\DemoRestSimonas2023\DemoRest20232\obj\Debug\net7.0\ref\Testing.dll
