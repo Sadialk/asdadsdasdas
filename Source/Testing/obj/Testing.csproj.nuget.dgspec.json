@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\klaid\\Desktop\\stpp git\\RestDemo\\source\\DemoRest2023\\Testing\\Testing.csproj": {}
+    "C:\\Users\\klaid\\Desktop\\stpp git\\asdadsdasdas\\Source\\Testing\\Testing.csproj": {}
   },
   "projects": {
-    "C:\\Users\\klaid\\Desktop\\stpp git\\RestDemo\\source\\DemoRest2023\\Testing\\Testing.csproj": {
+    "C:\\Users\\klaid\\Desktop\\stpp git\\asdadsdasdas\\Source\\Testing\\Testing.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\klaid\\Desktop\\stpp git\\RestDemo\\source\\DemoRest2023\\Testing\\Testing.csproj",
+        "projectUniqueName": "C:\\Users\\klaid\\Desktop\\stpp git\\asdadsdasdas\\Source\\Testing\\Testing.csproj",
         "projectName": "Testing",
-        "projectPath": "C:\\Users\\klaid\\Desktop\\stpp git\\RestDemo\\source\\DemoRest2023\\Testing\\Testing.csproj",
+        "projectPath": "C:\\Users\\klaid\\Desktop\\stpp git\\asdadsdasdas\\Source\\Testing\\Testing.csproj",
         "packagesPath": "C:\\Users\\klaid\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\klaid\\Desktop\\stpp git\\RestDemo\\source\\DemoRest2023\\Testing\\obj\\",
+        "outputPath": "C:\\Users\\klaid\\Desktop\\stpp git\\asdadsdasdas\\Source\\Testing\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\klaid\\AppData\\Roaming\\NuGet\\NuGet.Config",

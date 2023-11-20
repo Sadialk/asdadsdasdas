@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "J9Hr5YgZIxmuM5BxcnBwNxZLXp+fdy2PzDxqW3E68UlCzVoepb2ZPWY06x4MoRhD7efwlRwjoMERi3Qd8D+w0w==",
+  "dgSpecHash": "uPXDdfFmsZG972uiThPqXcdhv+CvfAKk5tcFzaHu2A542kQzlbW62NrKFiACfrZKPwrxUgSajSfbDurzwE6uFw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\klaid\\Desktop\\stpp git\\RestDemo\\source\\DemoRest2023\\Testing\\Testing.csproj",
+  "projectFilePath": "C:\\Users\\klaid\\Desktop\\stpp git\\asdadsdasdas\\Source\\Testing\\Testing.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\klaid\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\klaid\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
