@@ -25,6 +25,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddRazorPages();
 builder.Services.AddDbContext<AppdbContext>(options =>
     options.UseNpgsql(builder.Configuration.GetConnectionString("DigitalOceanDBConnection")));
+
 builder.Services.AddValidatorsFromAssemblyContaining<Program>();
 builder.Services.AddTransient<JwtTokenService>();
 builder.Services.AddScoped<AuthDbSeeder>();
