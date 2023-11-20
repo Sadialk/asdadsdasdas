@@ -12,3 +12,15 @@ RUN dotnet publish -c Release -o /app -r linux-musl-x64 --self-contained true /p
 FROM mcr.microsoft.com/dotnet/runtime-deps:7.0-alpine-amd64
 WORKDIR /app
 COPY --from=build /app .
+RUN ls /app
+ENTRYPOINT ["./Testing"]
+
+
+
+ENV \
+     DOTNET_SYSTEM_GLOBALIZATION_INVARIANT=false \
+     LC_ALL=en_US.UTF-8 \
+     LANG=en_US.UTF-8
+ RUN apk add --no-cache \
+     icu-data-full \
+     icu-libs
