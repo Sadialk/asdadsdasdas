@@ -24,7 +24,7 @@ namespace Testing
                         .Where(location => location.Region.Id == regionId)
                         .Select(location => new LocationDto(location.Id, location.Name, location.Description, location.Address, location.Picture, location.Price, location.IsAvailable, location.Region.Id));
             });
-            LocationGroup.MapGet("locations/{locationId:int}", [Authorize(Roles = RentRoles.RentUser)] async (int cityId, int regionId, int locationId, AppdbContext dbcontext) =>
+            LocationGroup.MapGet("locations/{locationId:int}", [Authorize(Roles = RentRoles.RentUser)] async (int cityId, int regionId, int locationId, AppdbContext dbcontext, HttpContext httpContext) =>
             {
                 var city = await dbcontext.cities.FirstOrDefaultAsync(c => c.Id == cityId);
                 var region = await dbcontext.regions.FirstOrDefaultAsync(r => r.Id == regionId && r.City.Id == cityId);
@@ -33,6 +33,10 @@ namespace Testing
                 if (city == null || region == null || location == null)
                 {
                     return Results.NotFound();
+                }
+                if(!httpContext.User.IsInRole(RentRoles.Admin) && httpContext.User.FindFirstValue(JwtRegisteredClaimNames.Sub) != location.UserId)
+                {
+                    return Results.Forbid();
                 }
 
                 return Results.Ok(new LocationDto(location.Id, location.Name, location.Description, location.Address, location.Picture, location.Price, location.IsAvailable, location.Id));

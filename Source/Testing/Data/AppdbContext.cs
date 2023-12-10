@@ -25,6 +25,7 @@ namespace Testing.Data
         }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
+            //optionsBuilder.UseNpgsql(_configuration.GetConnectionString("DefaultConnection"));
             optionsBuilder.UseNpgsql(_configuration.GetConnectionString("DigitalOceanDBConnection"));
         }
     }
