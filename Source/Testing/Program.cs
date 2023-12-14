@@ -17,8 +17,8 @@ using Testing.Auth;
 
 JwtSecurityTokenHandler.DefaultInboundClaimTypeMap.Clear();
 
-
-
+//  https://monkfish-app-zesk6.ondigitalocean.app/
+var origin = "tavomama";
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -29,7 +29,14 @@ builder.Services.AddDbContext<AppdbContext>(options =>
 builder.Services.AddValidatorsFromAssemblyContaining<Program>();
 builder.Services.AddTransient<JwtTokenService>();
 builder.Services.AddScoped<AuthDbSeeder>();
-
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy(name: origin,
+                      policy =>
+                      {
+                          policy.WithOrigins("https://monkfish-app-zesk6.ondigitalocean.app/");
+                      });
+});
 
 builder.Services.AddIdentity<RentUser, IdentityRole>()
     .AddEntityFrameworkStores<AppdbContext>().AddDefaultTokenProviders();
@@ -79,6 +86,10 @@ var LocationGroup = app.MapGroup("/api/cities/{cityId}/regions/{regionId}").With
 LocationEnpoints.AddLocationApi(LocationGroup);
 
 app.AddAuthApi();
+
+
+app.UseCors(origin);
+
 
 app.UseAuthentication();
 app.UseAuthorization();
