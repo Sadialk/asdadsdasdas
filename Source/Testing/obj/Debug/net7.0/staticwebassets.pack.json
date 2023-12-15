@@ -5,12 +5,60 @@
       "PackagePath": "staticwebassets\\Testing.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\klaid\\Desktop\\stpp git\\asdadsdasdas\\Source\\Testing\\wwwroot\\LOGINANDADDD\\index.html",
+      "PackagePath": "staticwebassets\\LOGINANDADDD\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\klaid\\Desktop\\stpp git\\asdadsdasdas\\Source\\Testing\\wwwroot\\LOGINANDADDD\\login.html",
+      "PackagePath": "staticwebassets\\LOGINANDADDD\\login.html"
+    },
+    {
+      "Id": "C:\\Users\\klaid\\Desktop\\stpp git\\asdadsdasdas\\Source\\Testing\\wwwroot\\LOGINANDADDD\\owner-data.html",
+      "PackagePath": "staticwebassets\\LOGINANDADDD\\owner-data.html"
+    },
+    {
+      "Id": "C:\\Users\\klaid\\Desktop\\stpp git\\asdadsdasdas\\Source\\Testing\\wwwroot\\SAVES\\POSTMETHOS.html",
+      "PackagePath": "staticwebassets\\SAVES\\POSTMETHOS.html"
+    },
+    {
+      "Id": "C:\\Users\\klaid\\Desktop\\stpp git\\asdadsdasdas\\Source\\Testing\\wwwroot\\SAVES\\index.html",
+      "PackagePath": "staticwebassets\\SAVES\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\klaid\\Desktop\\stpp git\\asdadsdasdas\\Source\\Testing\\wwwroot\\SAVES\\save.html",
+      "PackagePath": "staticwebassets\\SAVES\\save.html"
+    },
+    {
+      "Id": "C:\\Users\\klaid\\Desktop\\stpp git\\asdadsdasdas\\Source\\Testing\\wwwroot\\add-item.html",
+      "PackagePath": "staticwebassets\\add-item.html"
+    },
+    {
+      "Id": "C:\\Users\\klaid\\Desktop\\stpp git\\asdadsdasdas\\Source\\Testing\\wwwroot\\add-owner.html",
+      "PackagePath": "staticwebassets\\add-owner.html"
+    },
+    {
+      "Id": "C:\\Users\\klaid\\Desktop\\stpp git\\asdadsdasdas\\Source\\Testing\\wwwroot\\add-shop.html",
+      "PackagePath": "staticwebassets\\add-shop.html"
+    },
+    {
       "Id": "C:\\Users\\klaid\\Desktop\\stpp git\\asdadsdasdas\\Source\\Testing\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
       "Id": "C:\\Users\\klaid\\Desktop\\stpp git\\asdadsdasdas\\Source\\Testing\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\klaid\\Desktop\\stpp git\\asdadsdasdas\\Source\\Testing\\wwwroot\\img\\house.png",
+      "PackagePath": "staticwebassets\\img\\house.png"
+    },
+    {
+      "Id": "C:\\Users\\klaid\\Desktop\\stpp git\\asdadsdasdas\\Source\\Testing\\wwwroot\\img\\shop2.png",
+      "PackagePath": "staticwebassets\\img\\shop2.png"
+    },
+    {
+      "Id": "C:\\Users\\klaid\\Desktop\\stpp git\\asdadsdasdas\\Source\\Testing\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
     },
     {
       "Id": "C:\\Users\\klaid\\Desktop\\stpp git\\asdadsdasdas\\Source\\Testing\\wwwroot\\js\\site.js",
@@ -243,6 +291,26 @@
     {
       "Id": "C:\\Users\\klaid\\Desktop\\stpp git\\asdadsdasdas\\Source\\Testing\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\klaid\\Desktop\\stpp git\\asdadsdasdas\\Source\\Testing\\wwwroot\\login.html",
+      "PackagePath": "staticwebassets\\login.html"
+    },
+    {
+      "Id": "C:\\Users\\klaid\\Desktop\\stpp git\\asdadsdasdas\\Source\\Testing\\wwwroot\\main-page.html",
+      "PackagePath": "staticwebassets\\main-page.html"
+    },
+    {
+      "Id": "C:\\Users\\klaid\\Desktop\\stpp git\\asdadsdasdas\\Source\\Testing\\wwwroot\\owner-data.html",
+      "PackagePath": "staticwebassets\\owner-data.html"
+    },
+    {
+      "Id": "C:\\Users\\klaid\\Desktop\\stpp git\\asdadsdasdas\\Source\\Testing\\wwwroot\\script.js",
+      "PackagePath": "staticwebassets\\script.js"
+    },
+    {
+      "Id": "C:\\Users\\klaid\\Desktop\\stpp git\\asdadsdasdas\\Source\\Testing\\wwwroot\\styles.css",
+      "PackagePath": "staticwebassets\\styles.css"
     },
     {
       "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.Testing.Microsoft.AspNetCore.StaticWebAssets.props",

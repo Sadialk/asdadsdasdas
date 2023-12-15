@@ -34,7 +34,8 @@ builder.Services.AddCors(options =>
     options.AddPolicy(name: origin,
                       policy =>
                       {
-                          policy.WithOrigins("https://monkfish-app-zesk6.ondigitalocean.app/");
+                          policy.WithOrigins("https://monkfish-app-zesk6.ondigitalocean.app/",
+                              "*");
                       });
 });
 
