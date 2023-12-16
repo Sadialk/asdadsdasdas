@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css">
+
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <title>Main Page</title>
+  <style>
+
+    #idInputContainer {
+      display: none;
+      margin-top: 20px;
+    }
+
+    #move {
+      display: none;
+      margin-top: 20px;
+    }
+  </style>
+
+
+</head>
+
+<body>
+
+
+
+  <nav class="navbar">
+    
+    <div class="d-flex justify-content-start">
+      <h3 class="name">StoreTrack</h3>
+      <button style="margin-right: 10px;" id="action" type="button" value="POST" onclick="setAction('POST')">
+        Pridėti</button>
+      <button style="margin-right: 10px;" id="action" type="button" value="DELETE" onclick="setAction('DELETE')">
+        Trinti</button>
+    </div>
+
+    <div class="d-flex justify-content-start">
+      <button class="login-button" onclick="window.location.href='main-page.html'">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="32" height="32" fill="none" stroke="#333"
+          stroke-width="4" stroke-linecap="round" stroke-linejoin="round" style="transition: 0.3s ease;">
+          <path d="M19 12H5M12 19l-7-7 7-7" />
+        </svg>
+        Atgal
+      </button>
+
+    </div>
+  </nav>
+
+  <main class="content">
+    <h2>Registruoti miestai:</h2>
+    <table id="CityTable">
+      <thead>
+        <tr>
+          <th>Miesto ID</th>
+          <th>Pavadinimas</th>
+          <th>Šalis</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- incert data autpmaticly -->
+      </tbody>
+    </table>
+
+    <form id="ownerDataForm">
+
+      <h2 id="dd">Miesto Registravimas:</h2>
+      <h2 id="move">Miesto šalinimas:</h2>
+      <div id="name">
+        <label for="CityName">Miesto Pavadinimas</label><br>
+        <input type="text" id="CityName" name="CityName" style="width: 100%;" required>
+      </div>
+
+      <div id="lastname">
+        <label for="CountryName">Šalis:</label><br>
+        <input type="text" id="CountryName" name="CountryName" style="width: 100%;" required>
+      </div>
+
+      <div id="idInputContainer">
+        <label for="CityId">Įveskite Miesto ID:</label><br>
+        <input type="text" id="CityId" name="CityId">
+      </div>
+
+      <br>
+      <button type="submit">Vykdyti</button>
+      <br>
+    </form>
+  </main>
+
+</body>
+
+<script>
+  var state = "POST";
+  function setAction(actionValue) {
+    const idInputContainer = document.getElementById('idInputContainer');
+    const name = document.getElementById('name');
+    const lastname = document.getElementById('lastname');
+    const dd = document.getElementById('dd');
+    const move = document.getElementById('move');
+
+    move.style.display = actionValue === 'DELETE' ? 'block' : 'none';
+
+    idInputContainer.style.display = actionValue === 'DELETE' ? 'block' : 'none';
+    dd.style.display = actionValue === 'POST' ? 'block' : 'none';
+
+    name.style.display = actionValue === 'POST' ? 'block' : 'none';
+    lastname.style.display = actionValue === 'POST' ? 'block' : 'none';
+    state = actionValue
+    document.getElementById('CityName').required = actionValue === 'POST';
+    document.getElementById('CountryName').required = actionValue === 'POST';
+  }
+
+  fetch('/api/cities')
+    .then(response => {
+      if (!response.ok) {
+        throw new Error(`HTTP error! Status: ${response.status}`);
+      }
+      return response.json();
+    })
+    .then(data => {
+      console.log('Fetched data:', data);
+
+
+      data.sort((a, b) => a.id - b.id);
+
+      const CityTable = document.getElementById('CityTable').getElementsByTagName('tbody')[0];
+
+      if (Array.isArray(data) && data.length > 0) {
+
+        const properties = Object.keys(data[0]);
+
+
+        console.log('Owner Properties:', properties);
+
+
+        data.forEach(owner => {
+          const row = CityTable.insertRow();
+
+
+          properties.forEach(property => {
+            const cell = row.insertCell();
+            cell.textContent = owner[property] || 'N/A';
+          });
+        });
+      } else {
+        console.error('Data is not in the expected format.');
+      }
+    })
+    .catch(error => console.error('Error fetching data:', error));
+
+  //ADDING LOGIC:
+  const loginForm = document.getElementById('loginForm');
+
+  if (loginForm) {
+    loginForm.addEventListener('submit', function (event) {
+      event.preventDefault();
+      login();
+    });
+  }
+
+  const ownerDataForm = document.getElementById('ownerDataForm');
+
+
+  if (ownerDataForm) {
+    ownerDataForm.addEventListener('submit', function (event) {
+      event.preventDefault();
+
+      const token = localStorage.getItem('accessToken');
+      const apiUrl = "/api/cities";
+
+      const postData = {
+        "CityName": document.getElementById('CityName').value,
+        "Country": document.getElementById('CountryName').value
+      };
+
+      const action = document.getElementById('action');
+      const delID = document.getElementById('CityId').value;
+
+      if (state == "POST") {
+        fetch(apiUrl, {
+          method: 'POST',
+          headers: {
+            'Authorization': `Bearer ${token}`,
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify(postData),
+        })
+          .then(response => response.json())
+          .then(data => {
+            console.log(data);
+            window.location.reload();
+          })
+          .catch(error => console.error('Error:', error));
+      }
+      else {
+        console.log('tavbo')
+        fetch("/api/cities/" + delID, {
+          method: 'DELETE',
+          headers: {
+            'Authorization': `Bearer ${token}`,
+          },
+        })
+          .then(data => {
+            window.location.reload();
+
+          })
+
+          .catch(error => console.error('Error:', error));
+
+      }
+
+
+    });
+  }
+
+
+</script>
+
+</html>

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "zZtjIQjURK+69QD3l3yc5e3LyVDHerG+EbIKFxW/K9c=",
+  "Hash": "g6t10CG5EzAMAo9fy+knhMxU4WMzXZlgYEoJXIIncc4=",
   "Source": "Testing",
   "BasePath": "_content/Testing",
   "Mode": "Default",
@@ -1273,6 +1273,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\owner-data.html"
+    },
+    {
+      "Identity": "C:\\Users\\klaid\\Desktop\\stpp git\\asdadsdasdas\\Source\\Testing\\wwwroot\\register.html",
+      "SourceId": "Testing",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\klaid\\Desktop\\stpp git\\asdadsdasdas\\Source\\Testing\\wwwroot\\",
+      "BasePath": "_content/Testing",
+      "RelativePath": "register.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\register.html"
     },
     {
       "Identity": "C:\\Users\\klaid\\Desktop\\stpp git\\asdadsdasdas\\Source\\Testing\\wwwroot\\SAVES\\index.html",
