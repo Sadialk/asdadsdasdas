@@ -98,7 +98,7 @@ app.UseAuthorization();
 using (var scope = app.Services.CreateScope())
 {
     var dataContext = scope.ServiceProvider.GetRequiredService<AppdbContext>();
-    dataContext.Database.Migrate();
+    //dataContext.Database.Migrate();
     var dbSeeder = scope.ServiceProvider.GetRequiredService<AuthDbSeeder>();
     await dbSeeder.SeedAsync();
 }
