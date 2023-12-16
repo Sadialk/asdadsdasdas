@@ -29,32 +29,32 @@
       "PackagePath": "staticwebassets\\SAVES\\save.html"
     },
     {
-      "Id": "C:\\Users\\klaid\\Desktop\\stpp git\\asdadsdasdas\\Source\\Testing\\wwwroot\\add-item.html",
-      "PackagePath": "staticwebassets\\add-item.html"
+      "Id": "C:\\Users\\klaid\\Desktop\\stpp git\\asdadsdasdas\\Source\\Testing\\wwwroot\\add-city.html",
+      "PackagePath": "staticwebassets\\add-city.html"
     },
     {
-      "Id": "C:\\Users\\klaid\\Desktop\\stpp git\\asdadsdasdas\\Source\\Testing\\wwwroot\\add-owner.html",
-      "PackagePath": "staticwebassets\\add-owner.html"
+      "Id": "C:\\Users\\klaid\\Desktop\\stpp git\\asdadsdasdas\\Source\\Testing\\wwwroot\\add-location.html",
+      "PackagePath": "staticwebassets\\add-location.html"
     },
     {
-      "Id": "C:\\Users\\klaid\\Desktop\\stpp git\\asdadsdasdas\\Source\\Testing\\wwwroot\\add-shop.html",
-      "PackagePath": "staticwebassets\\add-shop.html"
+      "Id": "C:\\Users\\klaid\\Desktop\\stpp git\\asdadsdasdas\\Source\\Testing\\wwwroot\\add-region.html",
+      "PackagePath": "staticwebassets\\add-region.html"
     },
     {
       "Id": "C:\\Users\\klaid\\Desktop\\stpp git\\asdadsdasdas\\Source\\Testing\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
+      "Id": "C:\\Users\\klaid\\Desktop\\stpp git\\asdadsdasdas\\Source\\Testing\\wwwroot\\data.html",
+      "PackagePath": "staticwebassets\\data.html"
+    },
+    {
       "Id": "C:\\Users\\klaid\\Desktop\\stpp git\\asdadsdasdas\\Source\\Testing\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\klaid\\Desktop\\stpp git\\asdadsdasdas\\Source\\Testing\\wwwroot\\img\\house.png",
-      "PackagePath": "staticwebassets\\img\\house.png"
-    },
-    {
-      "Id": "C:\\Users\\klaid\\Desktop\\stpp git\\asdadsdasdas\\Source\\Testing\\wwwroot\\img\\shop2.png",
-      "PackagePath": "staticwebassets\\img\\shop2.png"
+      "Id": "C:\\Users\\klaid\\Desktop\\stpp git\\asdadsdasdas\\Source\\Testing\\wwwroot\\img\\messy.png",
+      "PackagePath": "staticwebassets\\img\\messy.png"
     },
     {
       "Id": "C:\\Users\\klaid\\Desktop\\stpp git\\asdadsdasdas\\Source\\Testing\\wwwroot\\index.html",
@@ -293,16 +293,16 @@
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
+      "Id": "C:\\Users\\klaid\\Desktop\\stpp git\\asdadsdasdas\\Source\\Testing\\wwwroot\\locations.html",
+      "PackagePath": "staticwebassets\\locations.html"
+    },
+    {
       "Id": "C:\\Users\\klaid\\Desktop\\stpp git\\asdadsdasdas\\Source\\Testing\\wwwroot\\login.html",
       "PackagePath": "staticwebassets\\login.html"
     },
     {
       "Id": "C:\\Users\\klaid\\Desktop\\stpp git\\asdadsdasdas\\Source\\Testing\\wwwroot\\main-page.html",
       "PackagePath": "staticwebassets\\main-page.html"
-    },
-    {
-      "Id": "C:\\Users\\klaid\\Desktop\\stpp git\\asdadsdasdas\\Source\\Testing\\wwwroot\\owner-data.html",
-      "PackagePath": "staticwebassets\\owner-data.html"
     },
     {
       "Id": "C:\\Users\\klaid\\Desktop\\stpp git\\asdadsdasdas\\Source\\Testing\\wwwroot\\register.html",

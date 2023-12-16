@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "g6t10CG5EzAMAo9fy+knhMxU4WMzXZlgYEoJXIIncc4=",
+  "Hash": "JLGXgQDAWpiOwnY/MY3AkZ/uTmBuaKSjqNeKpKC3RcY=",
   "Source": "Testing",
   "BasePath": "_content/Testing",
   "Mode": "Default",
@@ -51,12 +51,12 @@
       "OriginalItemSpec": "C:\\Users\\klaid\\Desktop\\stpp git\\asdadsdasdas\\Source\\Testing\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\Testing.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\klaid\\Desktop\\stpp git\\asdadsdasdas\\Source\\Testing\\wwwroot\\add-item.html",
+      "Identity": "C:\\Users\\klaid\\Desktop\\stpp git\\asdadsdasdas\\Source\\Testing\\wwwroot\\add-city.html",
       "SourceId": "Testing",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\klaid\\Desktop\\stpp git\\asdadsdasdas\\Source\\Testing\\wwwroot\\",
       "BasePath": "_content/Testing",
-      "RelativePath": "add-item.html",
+      "RelativePath": "add-city.html",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -65,15 +65,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\add-item.html"
+      "OriginalItemSpec": "wwwroot\\add-city.html"
     },
     {
-      "Identity": "C:\\Users\\klaid\\Desktop\\stpp git\\asdadsdasdas\\Source\\Testing\\wwwroot\\add-owner.html",
+      "Identity": "C:\\Users\\klaid\\Desktop\\stpp git\\asdadsdasdas\\Source\\Testing\\wwwroot\\add-location.html",
       "SourceId": "Testing",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\klaid\\Desktop\\stpp git\\asdadsdasdas\\Source\\Testing\\wwwroot\\",
       "BasePath": "_content/Testing",
-      "RelativePath": "add-owner.html",
+      "RelativePath": "add-location.html",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -82,15 +82,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\add-owner.html"
+      "OriginalItemSpec": "wwwroot\\add-location.html"
     },
     {
-      "Identity": "C:\\Users\\klaid\\Desktop\\stpp git\\asdadsdasdas\\Source\\Testing\\wwwroot\\add-shop.html",
+      "Identity": "C:\\Users\\klaid\\Desktop\\stpp git\\asdadsdasdas\\Source\\Testing\\wwwroot\\add-region.html",
       "SourceId": "Testing",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\klaid\\Desktop\\stpp git\\asdadsdasdas\\Source\\Testing\\wwwroot\\",
       "BasePath": "_content/Testing",
-      "RelativePath": "add-shop.html",
+      "RelativePath": "add-region.html",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -99,7 +99,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\add-shop.html"
+      "OriginalItemSpec": "wwwroot\\add-region.html"
     },
     {
       "Identity": "C:\\Users\\klaid\\Desktop\\stpp git\\asdadsdasdas\\Source\\Testing\\wwwroot\\css\\site.css",
@@ -119,6 +119,23 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
+      "Identity": "C:\\Users\\klaid\\Desktop\\stpp git\\asdadsdasdas\\Source\\Testing\\wwwroot\\data.html",
+      "SourceId": "Testing",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\klaid\\Desktop\\stpp git\\asdadsdasdas\\Source\\Testing\\wwwroot\\",
+      "BasePath": "_content/Testing",
+      "RelativePath": "data.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\data.html"
+    },
+    {
       "Identity": "C:\\Users\\klaid\\Desktop\\stpp git\\asdadsdasdas\\Source\\Testing\\wwwroot\\favicon.ico",
       "SourceId": "Testing",
       "SourceType": "Discovered",
@@ -136,12 +153,12 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\klaid\\Desktop\\stpp git\\asdadsdasdas\\Source\\Testing\\wwwroot\\img\\house.png",
+      "Identity": "C:\\Users\\klaid\\Desktop\\stpp git\\asdadsdasdas\\Source\\Testing\\wwwroot\\img\\messy.png",
       "SourceId": "Testing",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\klaid\\Desktop\\stpp git\\asdadsdasdas\\Source\\Testing\\wwwroot\\",
       "BasePath": "_content/Testing",
-      "RelativePath": "img/house.png",
+      "RelativePath": "img/messy.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -150,24 +167,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\house.png"
-    },
-    {
-      "Identity": "C:\\Users\\klaid\\Desktop\\stpp git\\asdadsdasdas\\Source\\Testing\\wwwroot\\img\\shop2.png",
-      "SourceId": "Testing",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\klaid\\Desktop\\stpp git\\asdadsdasdas\\Source\\Testing\\wwwroot\\",
-      "BasePath": "_content/Testing",
-      "RelativePath": "img/shop2.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\shop2.png"
+      "OriginalItemSpec": "wwwroot\\img\\messy.png"
     },
     {
       "Identity": "C:\\Users\\klaid\\Desktop\\stpp git\\asdadsdasdas\\Source\\Testing\\wwwroot\\index.html",
@@ -1173,6 +1173,23 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
+      "Identity": "C:\\Users\\klaid\\Desktop\\stpp git\\asdadsdasdas\\Source\\Testing\\wwwroot\\locations.html",
+      "SourceId": "Testing",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\klaid\\Desktop\\stpp git\\asdadsdasdas\\Source\\Testing\\wwwroot\\",
+      "BasePath": "_content/Testing",
+      "RelativePath": "locations.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\locations.html"
+    },
+    {
       "Identity": "C:\\Users\\klaid\\Desktop\\stpp git\\asdadsdasdas\\Source\\Testing\\wwwroot\\login.html",
       "SourceId": "Testing",
       "SourceType": "Discovered",
@@ -1256,23 +1273,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\main-page.html"
-    },
-    {
-      "Identity": "C:\\Users\\klaid\\Desktop\\stpp git\\asdadsdasdas\\Source\\Testing\\wwwroot\\owner-data.html",
-      "SourceId": "Testing",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\klaid\\Desktop\\stpp git\\asdadsdasdas\\Source\\Testing\\wwwroot\\",
-      "BasePath": "_content/Testing",
-      "RelativePath": "owner-data.html",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\owner-data.html"
     },
     {
       "Identity": "C:\\Users\\klaid\\Desktop\\stpp git\\asdadsdasdas\\Source\\Testing\\wwwroot\\register.html",
