@@ -92,6 +92,7 @@ app.AddAuthApi();
 app.UseCors(origin);
 
 // digital ocean annoying as hell
+// redeploy agian thank you
 app.UseAuthentication();
 app.UseAuthorization();
 

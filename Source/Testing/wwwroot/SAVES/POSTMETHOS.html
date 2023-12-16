@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fetch Example</title>
+</head>
+<body>
+    <script>
+        const token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoidmFydG90b2phczEiLCJqdGkiOiIwNzA0NTYxYi1mMDMwLTRhMjctYTIzNC04ZDc0ZjNiZGU3NDgiLCJzdWIiOiJlNDg3MDYwYy0zMGQxLTQ0N2EtYWRiZC00N2MxODhlYjY5NjYiLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOiJTdG9yZVVzZXIiLCJleHAiOjE3MDE3MDQyNzksImlzcyI6Ikx1a2FzIiwiYXVkIjoiVHJ1c3RlZENsaWVudCJ9.U_iLDgwMn6v3PGFxK8ix9YVVuwaGlHpyp5YmRr2qhFk";  // Retrieve from storage
+        const apiUrl = "https://plankton-app-yfnth.ondigitalocean.app/api/owners";
+
+        const postData = {
+          "Name": "TESTJS",
+          "LastName": "TESTJS"
+        };
+
+        fetch(apiUrl, {
+            method: 'POST',
+            headers: {
+                'Authorization': `Bearer ${token}`,
+                'Content-Type': 'application/json',
+                // Add other necessary headers
+            },
+            body: JSON.stringify(postData),
+        })
+        .then(response => response.json())
+        .then(data => console.log(data))
+        .catch(error => console.error('Error:', error));
+    </script>
+</body>
+</html>
+

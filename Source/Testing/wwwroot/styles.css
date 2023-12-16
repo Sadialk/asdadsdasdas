@@ -1,0 +1,198 @@
+/* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Comic Sans MS', cursive;
+  font-family: 'Lato', sans-serif;
+}
+
+.name {
+  padding: 10px;
+  background-color: #2D3032;
+  color: whitesmoke;
+}
+
+.footer {
+  background-color: #2D3032;
+  color: whitesmoke;
+  text-align: left;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+form {
+  display: flex;
+  font-family: 'Lato', sans-serif;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+}
+
+label {
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+input {
+  padding: 8px;
+  margin-bottom: 15px;
+}
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.close:hover {
+  color: black;
+}
+
+
+
+button {
+  padding: 10px;
+  background-color: #2D3032;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #555;
+}
+
+.room-image-container {
+  max-width: 100%;
+  overflow: hidden;
+  position: relative;
+  height: 50%;
+  /* Set the desired height (in this case, 50% for the lower half) */
+}
+
+.room-image {
+  width: 100%;
+  height: auto;
+  bottom: 0;
+  transform: translateY(-30%);
+  /* Move the image upward by 50% of its height */
+}
+
+.login-button {
+  padding: 10px;
+  background-color: #555;
+  color: whitesmoke;
+  border: none;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+.btn {
+  display: block;
+  margin-bottom: 10px;
+  /* Add margin between stacked buttons */
+  padding: 10px;
+  background-color: #2D3032;
+  color: whitesmoke;
+  border: none;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #555;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th,
+td {
+  border: 1px solid #555759;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #555759;
+  color: white;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #2D3032;
+}
+  /* Add a z-index to the mobile menu */
+  .mobile-menu {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #2D3032;
+    z-index: 1; /* Set a higher z-index to make it appear above other elements */
+  }
+
+  .mobile-menu ul {
+    list-style: none;
+    padding: 10px;
+    text-align: center; /* Center the menu items */
+  }
+
+  .mobile-menu ul li {
+    margin-bottom: 10px;
+  }
+
+  .mobile-menu a {
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 18px;
+    display: block; /* Display items as blocks to make them appear vertically */
+  }
+
+.burger-menu {
+  text-align: right;
+  display: none;
+  font-size: 24px;
+  cursor: pointer;
+  color: whitesmoke;
+  background-color: #2D3032;
+  border: none;
+  width: 100%;
+  z-index: 2; /* Set a higher z-index than the mobile menu to make it appear above */
+}
+@media screen and (max-width: 1000px) {
+  .navbar {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 2px;
+    background-color: #2D3032;
+  }
+
+
+
+
+
+  table {
+    font-size: 10px;
+    /* Decrease font size for smaller screens */
+  }
+
+
+
+  /* Add more styles as needed for smaller screens */
+}

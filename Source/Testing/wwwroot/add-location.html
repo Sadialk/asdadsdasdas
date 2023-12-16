@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="path/to/your/icon-font.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+  <title>Main Page</title>
+  <style>
+    select {
+      padding: 8px;
+      margin-bottom: 15px;
+      font-size: 16px;
+      width: 100%;
+    }
+  </style>
+
+
+</head>
+
+<body>
+
+
+
+  <nav class="navbar">
+    <div class="d-flex justify-content-start">
+      <h3 class="name">StoreTrack</h3>
+    </div>
+    <div class="d-flex justify-content-end">
+      <button class="login-button" onclick="window.location.href='main-page.html'">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="32" height="32" fill="none" stroke="#333"
+          stroke-width="4" stroke-linecap="round" stroke-linejoin="round" style="transition: 0.3s ease;">
+          <path d="M19 12H5M12 19l-7-7 7-7" />
+        </svg>
+        Atgal
+      </button>
+    </div>
+  </nav>
+
+  <main class="content">
+    <form id="LDataForm" style="width: 15%; margin: auto; display: flex; flex-direction: column; ">
+      <br>
+      <h2>Pridėti nuomavimo vietą:</h2>
+      <br>
+
+
+      <label for="cityDropdown">Miesto Pavadinimas</label>
+      <select id="cityDropdown"></select>
+
+      <label for="regionDropdown">Regiono Pavadinimas</label>
+      <select id="regionDropdown"></select><br><br>
+
+      <label for="locationName">Pavadinimas:</label>
+      <input type="text" id="locationName" name="locationName" required>
+
+      <br>
+
+      <label for="locationDescription">Aprašymas:</label>
+      <input type="text" id="locationDescription" name="locationDescription">
+
+      <br>
+
+      <label for="locationAddress">Adresas:</label>
+      <input type="text" id="locationAddress" name="locationAddress" required>
+
+      <br>
+
+      <label for="locationPicture">Nuotraukos nuoroda:</label>
+      <input type="text" id="locationPicture" name="locationPicture" required>
+
+      <br>
+
+      <label for="locationPrice">Kaina:</label>
+      <input type="text" id="locationPrice" name="locationPrice" required>
+
+      <br>
+
+
+
+      <button type="submit">Pridėti</button>
+
+      <div id="successMessage" style="display: none; color: green; margin-top: 10px;">
+        Prekė sėkmingai pridėta!
+      </div>
+
+      <div id="errorMessage" style="display: none; color: red; margin-top: 10px;">
+        Nepavyko pridėti prekės. Patikrinkite duomenis ir bandykite dar kartą.
+      </div>
+    </form>
+  </main>
+
+
+
+
+
+</body>
+<script>
+  var selectedCity = 0;
+  var selectedRegion = 0;
+
+  document.addEventListener("DOMContentLoaded", function () {
+    // Fetch regions from your database and populate the region dropdown
+    fetchCities();
+    var cityDropdown = document.getElementById("cityDropdown");
+    cityDropdown.addEventListener("change", function () {
+      selectedCity = this.value;
+      fetchRegions(); // Trigger fetching regions when the city changes
+    });
+    var regionDropdown = document.getElementById("regionDropdown");
+    regionDropdown.addEventListener("change", function () {
+      selectedRegion = this.value;
+    });
+  });
+  function fetchCities() {
+    // Replace with the actual API endpoint to fetch regions from your database
+    var url = '/api/cities';
+
+    fetch(url)
+      .then(response => response.json())
+      .then(data => {
+        populateCityDropdown('cityDropdown', data);
+      })
+      .catch(error => console.error('Error:', error));
+  }
+
+
+  function populateCityDropdown(dropdownId, data) {
+    var dropdown = document.getElementById(dropdownId);
+
+    // Clear existing options
+    dropdown.innerHTML = "";
+
+    // Add default option
+    var defaultOption = document.createElement("option");
+    defaultOption.value = "";
+    defaultOption.text = "Select...";
+    dropdown.appendChild(defaultOption);
+
+    // Add options from the data
+    data.forEach(item => {
+      var option = document.createElement("option");
+      option.value = item.id; // Assuming 'id' is the property in your CityDto
+      option.text = item.cityName; // Assuming 'cityName' is the property in your CityDto
+      dropdown.appendChild(option);
+    });
+  }
+  function fetchRegions() {
+    // Replace with the actual API endpoint to fetch regions from your database
+    var url = `/api/cities/${selectedCity}/regions`;
+
+    fetch(url)
+      .then(response => response.json())
+      .then(data => {
+        populateRegionDropdown('regionDropdown', data);
+      })
+      .catch(error => console.error('Error:', error));
+  }
+  function populateRegionDropdown(dropdownId, data) {
+    var dropdown = document.getElementById(dropdownId);
+
+    // Clear existing options
+    dropdown.innerHTML = "";
+
+    // Add default option
+    var defaultOption = document.createElement("option");
+    defaultOption.value = "";
+    defaultOption.text = "Select...";
+    dropdown.appendChild(defaultOption);
+
+    // Add options from the data
+    data.forEach(item => {
+      var option = document.createElement("option");
+      option.value = item.id; // Assuming 'id' is the property in your RegionDto
+      option.text = item.name; // Assuming 'name' is the property in your RegionDto
+      dropdown.appendChild(option);
+    });
+  }
+  const LDataForm = document.getElementById('LDataForm');
+  const successMessage = document.getElementById('successMessage');
+  const errorMessage = document.getElementById('errorMessage');
+
+  if (LDataForm) {
+    LDataForm.addEventListener('submit', function (event) {
+      event.preventDefault();
+
+      const token = localStorage.getItem('accessToken');
+
+
+      const apiUrl = "/api/cities/" + selectedCity + "/regions/" + selectedRegion + "/locations";
+      const available = true
+
+      const postData = {
+        "Name": document.getElementById('locationName').value,
+        "Description": document.getElementById('locationDescription').value,
+        "Address": document.getElementById('locationAddress').value,
+        "Picture": document.getElementById('locationPicture').value,
+        "Price": document.getElementById('locationPrice').value,
+        "IsAvailable": available,
+        "RegionId": selectedRegion
+      };
+
+      console.log(token);
+      fetch(apiUrl, {
+        method: 'POST',
+        headers: {
+          'Authorization': `Bearer ${token}`,
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(postData),
+      })
+        .then(response => response.json())
+        .then(data => {
+          console.log(data);
+          successMessage.style.display = 'block';
+          errorMessage.style.display = 'none';
+        })
+        .catch(error => {
+          console.error('Error:', error)
+          errorMessage.style.display = 'block';
+          successMessage.style.display = 'none';
+        });
+    });
+  }
+</script>
+
+</html>
