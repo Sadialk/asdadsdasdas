@@ -50,7 +50,6 @@ namespace Testing.Data.Dtos
             RuleFor(dto => dto.Address).NotEmpty().NotNull().Length(2, 50);
             RuleFor(dto => dto.Picture).NotEmpty().NotNull().Length(2, 50);
             RuleFor(dto => dto.Price).NotEmpty().NotNull();
-            RuleFor(dto => dto.IsAvailable).NotEmpty().NotNull();
         }
     }
     public class UpdateLocationDtoValidator : AbstractValidator<CreateLocationDto>
@@ -62,7 +61,6 @@ namespace Testing.Data.Dtos
             RuleFor(dto => dto.Address).NotEmpty().NotNull().Length(2, 50);
             RuleFor(dto => dto.Picture).NotEmpty().NotNull().Length(2, 50);
             RuleFor(dto => dto.Price).NotEmpty().NotNull();
-            RuleFor(dto => dto.IsAvailable).NotEmpty().NotNull();
         }
     }
 

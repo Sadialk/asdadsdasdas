@@ -11,7 +11,6 @@
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
   <title>Main Page</title>
   <style>
-
     #idInputContainer {
       display: none;
       margin-top: 20px;
@@ -31,9 +30,9 @@
 
 
   <nav class="navbar">
-    
+
     <div class="d-flex justify-content-start">
-      <h3 class="name">StoreTrack</h3>
+      <h3 class="name">AiRent</h3>
       <button style="margin-right: 10px;" id="action" type="button" value="POST" onclick="setAction('POST')">
         Pridėti</button>
       <button style="margin-right: 10px;" id="action" type="button" value="DELETE" onclick="setAction('DELETE')">
@@ -95,6 +94,29 @@
 </body>
 
 <script>
+
+  function isTokenExpired() {
+    const token = localStorage.getItem('accessToken');
+    if (!token) {
+      return true; // Token not present, consider it as expired
+    }
+
+    // Decode the JWT token
+    console.log(token);
+    const tokenPayload = JSON.parse(atob(token.split('.')[1]));
+
+    // Get the expiration time from the token
+    const expirationTime = tokenPayload.exp * 1000; // Convert seconds to milliseconds
+    const currentTime = new Date().getTime();
+
+    return currentTime > expirationTime;
+  }
+
+  // Check if the token is expired on page load
+  if (isTokenExpired()) {
+    // Redirect to the login page
+    window.location.href = 'login.html'; // Replace 'login.html' with your actual login page
+  }
   var state = "POST";
   function setAction(actionValue) {
     const idInputContainer = document.getElementById('idInputContainer');
@@ -169,7 +191,6 @@
   if (ownerDataForm) {
     ownerDataForm.addEventListener('submit', function (event) {
       event.preventDefault();
-
       const token = localStorage.getItem('accessToken');
       const apiUrl = "/api/cities";
 
@@ -198,7 +219,6 @@
           .catch(error => console.error('Error:', error));
       }
       else {
-        console.log('tavbo')
         fetch("/api/cities/" + delID, {
           method: 'DELETE',
           headers: {

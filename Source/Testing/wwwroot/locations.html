@@ -7,7 +7,6 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="path/to/your/icon-font.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 
     <title>Main Page</title>
@@ -17,12 +16,13 @@
             flex-direction: column;
             align-items: center;
         }
+
         select {
-  width: 200px;
-  padding: 10px;
-  margin: 10px;
-  font-size: 16px;
-}
+            width: 200px;
+            padding: 10px;
+            margin: 10px;
+            font-size: 16px;
+        }
     </style>
 </head>
 
@@ -32,7 +32,7 @@
     <nav class="navbar">
         <div class="d-flex justify-content-start">
 
-            <h3 class="name" style="margin-right: 10px;">StoreTrack</h3>
+            <h3 class="name" style="margin-right: 10px;">AiRent</h3>
         </div>
 
 
@@ -44,8 +44,8 @@
                     style="transition: 0.3s ease;">
                     <path d="M19 7H5M12 14l-7-7 7-7" />
                 </svg>
-                    Atgal
-                  </button>
+                Atgal
+            </button>
 
         </div>
     </nav>
@@ -71,6 +71,7 @@
                     <th>Nuotrauka / Video įrašas</th>
                     <th>Kaina</th>
                     <th>Ar laisvas</th>
+                    <th>Rezervacija</th>
                 </tr>
             </thead>
             <tbody id="tableBody">
@@ -87,6 +88,7 @@
 
     <script>
         var selectedCity = 0;
+        var selectedRegion = 0;
         document.addEventListener("DOMContentLoaded", function () {
             // Fetch regions from your database and populate the region dropdown
             fetchCities();
@@ -211,6 +213,16 @@
                     var cell7 = row.insertCell(6);
                     cell7.textContent = item.isAvailable ? "Taip" : "Ne"; // Replace with the actual property in your LocationDto
 
+                    var cell8 = row.insertCell(7);
+                    var reserveButton = document.createElement("button");
+                    reserveButton.textContent =  item.isAvailable ? "Reservuoti" : "Naikinti rezervacija";
+
+                    reserveButton.onclick = function () {
+                        reserveLocation(item.id, item.name, item.description, item.address, item.picture, item.price, !item.isAvailable); // Pass the location ID to the reservation function
+                    };
+                    cell8.appendChild(reserveButton);
+
+
                 });
                 // Show the table, table header, and hide the no data message
                 tableContainer.style.display = "block";
@@ -222,7 +234,45 @@
                 tableHeader.style.display = "none";
                 noDataMessage.style.display = "block";
             }
+            function reserveLocation(locationId, ln, ld, la,lp, lpi, lav) {
+                // Implement the logic to reserve the location using an API call
+                var url = `/api/cities/${selectedCity}/regions/${selectedRegion}/locations/${locationId}`;
+                console.log(JSON.stringify({
+                        "Name": ln,
+                        "Description": ld,
+                        "Address": la,
+                        "Picture": lp,
+                        "Price": lpi,
+                        "IsAvailable": lav
+                    }));
+                fetch(url, {
+                    method: 'PUT',
+                    headers: {
+                        'Content-Type': 'application/json'
 
+                    },
+                    
+                    // You can include additional data in the request body if required
+                    body: JSON.stringify({
+                        "Name": ln,
+                        "Description": ld,
+                        "Address": la,
+                        "Picture": lp,
+                        "Price": lpi,
+                        "IsAvailable": lav
+                    })
+                })
+                    .then(response => response.json())
+                    .then(data => {
+                        // Handle the response, e.g., show a success message
+                        console.log('Reservation success:', data);
+                        window.location.reload();
+                    })
+                    .catch(error => {
+                        console.error('Reservation error:', error);
+                        // Handle errors, e.g., show an error message
+                    });
+            }
         }
 
     </script>

@@ -65,12 +65,12 @@ namespace Testing
                 return Results.Created($"/api/cities/{createLocationDto.Id:int}",
                                         new LocationDto(location.Id, location.Name, location.Description, location.Address, location.Picture, location.Price, location.IsAvailable, location.Id));
             });
-            LocationGroup.MapPut("locations/{locationId:int}", [Authorize(Roles = RentRoles.RentUser)] async (int cityId, int regionId, int locationId, HttpContext httpContext, [Validate] CreateLocationDto createLocationDto, AppdbContext dbcontext) =>
+            LocationGroup.MapPut("locations/{locationId:int}", async (int cityId, int regionId, int locationId, HttpContext httpContext, [Validate] CreateLocationDto createLocationDto, AppdbContext dbcontext) =>
             {
                 var city = await dbcontext.cities.FirstOrDefaultAsync(c => c.Id == cityId);
                 var region = await dbcontext.regions.FirstOrDefaultAsync(r => r.Id == regionId && r.City.Id == cityId);
                 var location = await dbcontext.locations.FirstOrDefaultAsync(l => l.Id == locationId && l.Region.Id == regionId && l.Region.City.Id == cityId);
-
+                Console.WriteLine(createLocationDto.IsAvailable);
                 if (city == null || region == null || location == null)
                 {
                     return Results.NotFound();
@@ -82,11 +82,6 @@ namespace Testing
                 location.Price = createLocationDto.Price;
                 location.IsAvailable = createLocationDto.IsAvailable;
 
-                if (!httpContext.User.IsInRole(RentRoles.Admin) && httpContext.User.FindFirstValue(JwtRegisteredClaimNames.Sub) != location.UserId)
-                {
-                    //not found to hide it
-                    return Results.Forbid();
-                }
 
                 await dbcontext.SaveChangesAsync();
                 return Results.Ok(new LocationDto(location.Id, location.Name, location.Description, location.Address, location.Picture, location.Price, location.IsAvailable, regionId));
@@ -96,16 +91,16 @@ namespace Testing
                 var city = await dbcontext.cities.FirstOrDefaultAsync(c => c.Id == cityId);
                 var region = await dbcontext.regions.FirstOrDefaultAsync(r => r.Id == regionId && r.City.Id == cityId);
                 var location = await dbcontext.locations.FirstOrDefaultAsync(l => l.Id == locationId && l.Region.Id == regionId && l.Region.City.Id == cityId);
-
+                if (city == null || region == null || location == null)
+                {
+                    return Results.NotFound();
+                }
                 if (!httpContext.User.IsInRole(RentRoles.Admin) && httpContext.User.FindFirstValue(JwtRegisteredClaimNames.Sub) != location.UserId)
                 {
                     //not found to hide it
                     return Results.Forbid();
                 }
-                if (city == null || region == null || location == null)
-                {
-                    return Results.NotFound();
-                }
+               
                 dbcontext.Remove(location);
                 await dbcontext.SaveChangesAsync();
                 return Results.NoContent();

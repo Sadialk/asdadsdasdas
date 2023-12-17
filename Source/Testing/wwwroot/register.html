@@ -27,7 +27,10 @@
       flex-direction: column;
       align-items: center;
     }
-
+  #PassCheck {
+      color: red;
+      margin-top: 10px;
+    }
     #errorDisplay {
       color: red;
       margin-top: 10px;
@@ -39,7 +42,7 @@
   <nav class="navbar">
     <div class="d-flex justify-content-start">
 
-      <h3 class="name" style="margin-right: 10px;">StoreTrack</h3>
+      <h3 class="name" style="margin-right: 10px;">AiRent</h3>
 
     </div>
 
@@ -80,7 +83,7 @@
         <button type="submit">Registruoti</button>
       </form>
 
-      <div id="accessTokenDisplay"></div>
+      <div id="PassCheck"></div>
       <div id="errorDisplay"></div>
     </div>
 
@@ -88,6 +91,10 @@
 
 
   <script>
+    function checkPassword(str) {
+      var re = /^(?=.*\d)(?=.*[!@#$%^&*])(?=.*[a-z])(?=.*[A-Z]).{8,}$/;
+      return re.test(str);
+    }
     document.addEventListener('DOMContentLoaded', function () {
       async function login() {
         const formData = {
@@ -95,30 +102,40 @@
           email: document.getElementById('email').value,
           password: document.getElementById('password').value
         };
-
-        try {
-          const response = await fetch('/api/register', {
-            method: 'POST',
-            headers: {
-              'Content-Type': 'application/json'
-            },
-            body: JSON.stringify(formData)
-          });
-
-          const data = await response.json();
-
-
-          if (response.ok) {
-            errorDisplay.textContent = 'Sekmingai priregistruota, galite prisijungti';
-            window.location.href = 'login.html';
-          } else {
-            const errorDisplay = document.getElementById('errorDisplay');
-            errorDisplay.textContent = 'Nepavyko priregistruoti! Ar teisingai įvedėte duomenis ?';
-            console.error('Login failed or Access token not found.', 'Response Status:', response.status, 'Response Data:', data);
-          }
-        } catch (error) {
-          console.error('Error during login:', error);
+        const pass = document.getElementById('PassCheck');
+        if (!checkPassword(document.getElementById('password').value))
+        {
+          pass.textContent = 'Slaptažodis privalo turėti didžiają raidę, simbolį ir skaičių';
+          return;
         }
+          try {
+            const response = await fetch('/api/register', {
+              method: 'POST',
+              headers: {
+                'Content-Type': 'application/json'
+              },
+              body: JSON.stringify(formData)
+            });
+
+            const data = await response.json();
+
+              console.log(data)
+            if (response.ok) {
+              errorDisplay.textContent = 'Sekmingai priregistruota, galite prisijungti';
+              window.location.href = 'login.html';
+            } else if(data === "user name already taken"){
+              const errorDisplay = document.getElementById('errorDisplay');
+              errorDisplay.textContent = "Vartotojo vardas užimtas";
+            }
+            
+            else{
+              const errorDisplay = document.getElementById('errorDisplay');
+              errorDisplay.textContent = 'Nepavyko priregistruoti! Ar teisingai įvedėte duomenis ?';
+              console.error('Login failed or Access token not found.', 'Response Status:', response.status, 'Response Data:', data);
+            }
+          } catch (error) {
+            console.error('Error during login:', error);
+          }
       }
 
       const loginForm = document.getElementById('loginForm');

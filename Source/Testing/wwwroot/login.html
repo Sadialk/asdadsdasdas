@@ -41,7 +41,7 @@
   <nav class="navbar">
     <div class="d-flex justify-content-start">
 
-      <h3 class="name" style="margin-right: 10px;">StoreTrack</h3>
+      <h3 class="name" style="margin-right: 10px;">AiRent</h3>
 
 
     </div>
@@ -74,7 +74,6 @@
       <br>
       <button type="submit">Prisijungti</button>
     </form>
-    <div id="accessTokenDisplay"></div>
     <div id="errorDisplay"></div>
   </div>
 
@@ -101,16 +100,16 @@
 
           if (response.ok && data.accessToken) {
             const accessTokenDisplay = document.getElementById('accessTokenDisplay');
-            accessTokenDisplay.textContent = `Access Token: ${data.accessToken}`;
 
             localStorage.setItem('accessToken', data.accessToken);
+            localStorage.setItem('refreshToken', data.refreshToken);
             //console.log('Access token:', data.accessToken);
 
             // Redirect to the owner data insertion page after successful login
             window.location.href = 'main-page.html';
           } else {
             const errorDisplay = document.getElementById('errorDisplay');
-            errorDisplay.textContent = 'Nepavyko prisijungti! Ar teisingai įvedėte duomenis ?';
+            errorDisplay.textContent = 'Nepavyko prisijungti! Pasitikrinkite ar teisingai įvedėte duomenis ir bandykite dar kartą';
             console.error('Login failed or Access token not found.', 'Response Status:', response.status, 'Response Data:', data);
           }
         } catch (error) {
